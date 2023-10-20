@@ -7,6 +7,10 @@ export default () => ({
   msteams: {
     appId: process.env.MICROSOFT_APP_ID,
     appPassword: process.env.MICROSOFT_APP_PASSWORD,
-    microsoftAppTenantId: process.env.MICROSOFT_APP_TENANTID
+    microsoftAppTenantId: process.env.MICROSOFT_APP_TENANTID,
+  },
+  rollbar: {
+    token: process.env.ROLLBAR_ACCESS_TOKEN,
+    environment: process.env.ROLLBAR_ENVIRONMENT,
   },
 });

@@ -21,16 +21,17 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@microsoft/adaptivecards-tools": "^1.0.0",
     "@nestjs/common": "^8.0.0",
     "@nestjs/config": "^3.1.1",
     "@nestjs/core": "^8.0.0",
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^8.0.0",
     "botbuilder": "^4.20.1",
+    "nestjs-rollbar": "^3.0.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0",
-    "@microsoft/adaptivecards-tools": "^1.0.0"
+    "rxjs": "^7.2.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.0.0",
