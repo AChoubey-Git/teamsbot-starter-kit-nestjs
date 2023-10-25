@@ -32,6 +32,11 @@
 $ yarn install
 ```
 
+## create environment variables
+```bash
+$ cp .env.example .env
+```
+
 ## Running the app
 
 ```bash
